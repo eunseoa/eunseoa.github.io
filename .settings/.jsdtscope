@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.wst.jsdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="con" path="org.eclipse.wst.jsdt.launching.baseBrowserLibrary"/>
+	<classpathentry excluding="assets/vendor/bootstrap/js/bootstrap.bundle.js|assets/vendor/bootstrap/js/bootstrap.bundle.min.js|assets/vendor/bootstrap/js/bootstrap.esm.js|assets/vendor/bootstrap/js/bootstrap.esm.min.js|assets/vendor/bootstrap/js/bootstrap.js|assets/vendor/bootstrap/js/bootstrap.min.js|assets/vendor/swiper/swiper-bundle.min.js" kind="src" path=""/>
+	<classpathentry kind="output" path=""/>
+</classpath>
