@@ -132,7 +132,6 @@
 					<div class="section-title">
 						<h2>Portfolio</h2>
 						<p>Check My Portfolio</p>
-						<h6 style="color: sandybrown">사진을 클릭하시면 더 자세히 보실 수 있습니다.</h6>
 					</div>
 					<br>
 					<div class="row" data-aos="fade-up" data-aos-delay="100">
@@ -145,7 +144,8 @@
 						</div>
 					</div>
 					<div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
-						<div class="col-lg-6 col-md-6 portfolio-item filter-individual">
+						<!-- 예약 프로젝트 -->
+						<div class="col-lg-6 col-md-6 portfolio-item filter-team">
 							<div style="border: 1px solid orange; width: 90%">
 								<div style="margin: 3%;">
 									<div class="portfolio-wrap">
@@ -165,19 +165,154 @@
 											<a class="portfolio-links btn btn-outline-warning text-warning" style="font-weight: bold; color: white" href="https://github.com/gdj58-project-6/perfumeshop.git" target="_blank"> Github </a>
 										</h4>
 										<div>
-											<h4>세미 팀 프로젝트</h4>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- 쇼핑몰 프로젝트 -->
+						<div class="col-lg-6 col-md-6 portfolio-item filter-team">
+							<div style="border: 1px solid orange; width: 90%">
+								<div style="margin: 3%;">
+									<div class="portfolio-wrap">
+										<img src="assets/img/perfumshop.png" class="img-fluid" alt="">
+										<div class="portfolio-info">
+											<h4>shop-project</h4>
+											<p>MVC model2</p>
+											<div class="portfolio-links">
+												<a href="assets/img/perfumshop.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="온라인 향수 쇼핑몰"><i class="bx bx-plus"></i></a>
+											</div>
+										</div>
+									</div>
+									<div>
+										<br>
+										<h4>
+											<a class="portfolio-links btn btn-warning" style="font-weight: bold; color: white" href="http://13.124.224.9/perfumeshop/member/login" target="_blank"> 바로가기 </a>
+											<a class="portfolio-links btn btn-outline-warning text-warning" style="font-weight: bold; color: white" href="https://github.com/gdj58-project-6/perfumeshop.git" target="_blank"> Github </a>
+										</h4>
+										<div>
+											<h4 style="font-weight: bold;">[팀프로젝트] - 온라인 향수판매 쇼핑몰</h4>							
 											<hr>
-											<p>인원 : 3명</p>
-											<p>주제 : 온라인 향수 쇼핑몰</p>
-											<p>기간 : 2023.01.03 ~ 2023.02.06</p>
-											<p>담당 기능 : 회원 관리, 주문, 리뷰, 반품 신청, 포인트, 사이트 누적 접속자 수</p>
+												<span style="font-size: 13px;">
+													<span style="font-weight: bold;">기간</span> : 2023.01.03 ~ 2023.02.01<br>
+													<span style="font-weight: bold;">인원</span> : 3명<br>
+													<span style="font-weight: bold;">내용</span> : MVC model2 방식을 이용해서 향수를 판매하는 온라인 쇼핑몰로 향수를 구매, 환불, 리뷰를 남길 수 있는 시스템을 구현한 팀 프로젝트입니다 <br>
+												</span>
 											<hr>
-											<p>프로젝트 방식 : MVC Model2</p>
-											<p>사용 프로그램 : Spring Boot, Mariadb(10.4), tomcat9, Github</p>
-											<p>사용 언어 : Java(jdk-11.0.14), HeidiSQL(11.3.0)</p>
+												<span style="font-size: 13px;">
+													<span style="font-weight: bold;">프로젝트 방식</span> : MVC model2 <br>
+													<span style="font-weight: bold;">사용 프로그램 </span> : <br>
+													<span style="font-weight: bold;">언어</span> : <br>
+												</span>
+												<br>
+												<span style="font-size: 13px;">
+													<span style="color: blue;"><span style="font-weight: bold;">담당 기능 구현</span> : 회원 관리, 주문, 리뷰, 반품 신청, 포인트, 사이트 누적 접속자 수<br></span>
+													1) 회원가입<br>
+														- 중복아이디 검사, 회원가입 구현<br>
+														- 회원정보, 주소 동시 가입 구현<br>
+													
+													2) 회원정보 수정
+														- 최근 변경한 비밀번호 유효성 검사 후 비밀번호 수정 구현<br>
+														- 회원정보 수정 구현<br>
+													
+													3) 회원 탈퇴
+														- 회원 탈퇴 기능 구현<br>
+													
+													4) 상품 구매 구현
+														- 바로구매, 장바구니 상품 구매 구현<br>
+														- 구매시 포인트 차감 구현<br>
+														- 구매내역리스트 구현<br>
+														- 리뷰작성 기능 구현<br>
+														- 주문취소 기능 구현<br>
+													
+													5) 관리자
+														- 아이디 중복 검사 구현 <br>
+														- 주문 상태 변경, 반품 승인 기능 구현 <br>
+														- 리뷰 관리 기능 구현<br>
+												</span>
 											<hr>
-											<p>[프로젝트 설명]</p>
-											<p>스프링 모델 2(MVC)방식을 이용해 공공기관에서 운영하는 사회체육센터로 온라인으로 강좌를 결제하고 환불하여 이용하는 시스템을 구현한 팀 프로젝트. 회원가입을 하면 모두 회원, 총 관리자가 승인해줘야 회원인 동시에 강사 / 관리자로 변경가능, 강좌를 장바구니에 넣고 사물함과 선택적으로 구매를 하여 이용, 상담예약 할 수 있으며 회원이 질문하면 관리자의 답변이 달려 질문 가능, 공지사항으로 공지를 확인, 상담예약가능</p>
+											<span style="font-size: 13px;">
+												<span style="font-weight: bold;">프로젝트 설명<br></span>
+												중복아이디를 사용할 수 없으며 다음 API를 사용하여 주소 정보를 받습니다<br>
+												고객은 향수를 바로구매, 장바구니에 담은 후 여러개를 구매할 수 있으며 포인트도 사용이 가능합니다<br>
+												주문 내역에 대해 취소, 반품신청을 할 수 있고 구매확정이 된 주문에 대해서는 리뷰를 남길 수도 있습니다<br>
+												주문에 대한 질문을 남길 수도 있습니다<br>
+												관리자는 등급별로 주문 배송관리, 반품내역 승인, 상품 등록, 상품 수정, 고객센터 응대등을 할 수 있습니다<br>
+											</span>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- 가계부 프로젝트 -->
+						<div class="col-lg-6 col-md-6 portfolio-item filter-individual">
+							<div style="border: 1px solid orange; width: 90%">
+								<div style="margin: 3%;">
+									<div class="portfolio-wrap">
+										<img src="assets/img/cashbook.png" class="img-fluid" alt="">
+										<div class="portfolio-info">
+											<h4>cashbook-project</h4>
+											<p>model1</p>
+											<div class="portfolio-links">
+												<a href="assets/img/cashbook.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="온라인 향수 쇼핑몰"><i class="bx bx-plus"></i></a>
+											</div>
+										</div>
+									</div>
+									<div>
+										<br>
+										<h4>
+											<a class="portfolio-links btn btn-warning" style="font-weight: bold; color: white" href="http://13.124.224.9/cashbook/log/loginForm.jsp" target="_blank"> 바로가기 </a>
+											<a class="portfolio-links btn btn-outline-warning text-warning" style="font-weight: bold; color: white" href="https://github.com/eunseoa/cashbbok.git" target="_blank"> Github </a>
+										</h4>
+										<div>
+											<h4 style="font-weight: bold;">[개인프로젝트] - 온라인 향수판매 쇼핑몰</h4>							
+											<hr>
+												<span style="font-size: 13px;">
+													<span style="font-weight: bold;">기간</span> : 2023.01.03 ~ 2023.02.01<br>
+													<span style="font-weight: bold;">인원</span> : 3명<br>
+													<span style="font-weight: bold;">내용</span> : MVC model2 방식을 이용해서 향수를 판매하는 온라인 쇼핑몰로 향수를 구매, 환불, 리뷰를 남길 수 있는 시스템을 구현한 팀 프로젝트입니다 <br>
+												</span>
+											<hr>
+												<span style="font-size: 13px;">
+													<span style="font-weight: bold;">프로젝트 방식</span> : MVC model2 <br>
+													<span style="font-weight: bold;">사용 프로그램 </span> : <br>
+													<span style="font-weight: bold;">언어</span> : <br>
+												</span>
+												<br>
+												<span style="font-size: 13px;">
+													<span style="color: blue;"><span style="font-weight: bold;">담당 기능 구현</span> : 회원 관리, 주문, 리뷰, 반품 신청, 포인트, 사이트 누적 접속자 수<br></span>
+													1) 회원가입<br>
+														- 중복아이디 검사, 회원가입 구현<br>
+														- 회원정보, 주소 동시 가입 구현<br>
+													
+													2) 회원정보 수정
+														- 최근 변경한 비밀번호 유효성 검사 후 비밀번호 수정 구현<br>
+														- 회원정보 수정 구현<br>
+													
+													3) 회원 탈퇴
+														- 회원 탈퇴 기능 구현<br>
+													
+													4) 상품 구매 구현
+														- 바로구매, 장바구니 상품 구매 구현<br>
+														- 구매시 포인트 차감 구현<br>
+														- 구매내역리스트 구현<br>
+														- 리뷰작성 기능 구현<br>
+														- 주문취소 기능 구현<br>
+													
+													5) 관리자
+														- 아이디 중복 검사 구현 <br>
+														- 주문 상태 변경, 반품 승인 기능 구현 <br>
+														- 리뷰 관리 기능 구현<br>
+												</span>
+											<hr>
+											<span style="font-size: 13px;">
+												<span style="font-weight: bold;">프로젝트 설명<br></span>
+												중복아이디를 사용할 수 없으며 다음 API를 사용하여 주소 정보를 받습니다<br>
+												고객은 향수를 바로구매, 장바구니에 담은 후 여러개를 구매할 수 있으며 포인트도 사용이 가능합니다<br>
+												주문 내역에 대해 취소, 반품신청을 할 수 있고 구매확정이 된 주문에 대해서는 리뷰를 남길 수도 있습니다<br>
+												주문에 대한 질문을 남길 수도 있습니다<br>
+												관리자는 등급별로 주문 배송관리, 반품내역 승인, 상품 등록, 상품 수정, 고객센터 응대등을 할 수 있습니다<br>
+											</span>
 										</div>
 									</div>
 								</div>
@@ -293,11 +428,6 @@
 					<div class="row">
 						<div class="col-lg-6">
 							<div class="info">
-								<div class="address">
-									<i class="bi bi-geo-alt-fill"></i>
-									<h4>Address :</h4>
-									<p>안산</p>
-								</div>
 								<div class="email">
 									<i class="bi bi-envelope-fill"></i>
 									<h4>Email :</h4>
